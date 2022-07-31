@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shane's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -16,10 +16,12 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h2>Shane Bramble-Wade</h2>
-
+      <nav class="nav-bar">
         <div>
+          <h2>Shane Bramble-Wade</h2>
+        </div>
+
+        
           <ul>
             <li>
               <a href="#about-me">About Me</a>
@@ -31,25 +33,57 @@
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="/">Resume</a>
+              <a
+                href="./assets/docs/Software Engineering 0.3V.pdf"
+                target="_blank"
+                >Resume</a
+              >
             </li>
           </ul>
-        </div>
+        
       </nav>
     </header>
 
     <!-- Hero Section  -->
-    <section class="hero"></section>
+    <section class="hero">
+      <h3>Hi, I'm Shane</h3>
+      <p>I'm a full stack developer</p>
+    </section>
     <!-- About Me Section  -->
-    <section id="about-me"></section>
+    <section id="about-me" class="about">
+      <div>
+        <h4>About me</h4>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+            officiis. Ipsum eum, laborum saepe aperiam quis consectetur velit
+            architecto ducimus aliquam a ipsa ullam culpa voluptate nisi
+            reiciendis! Amet, dolores! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quidem quibusdam exercitationem, esse totam eum
+            autem fugiat dolorum nam. Ipsam laudantium nihil hic iure vel
+            explicabo esse et ducimus! Minima, mollitia. Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Magni beatae, incidunt totam in,
+            similique voluptas mollitia nobis magnam fuga, rem nesciunt
+            consequuntur sint? A quo laboriosam, at suscipit ut non.
+          </p>
+        </div>
+      </div>
+    </section>
     <!-- Work Section  -->
-    <section id="work"></section>
+    <section id="work" class="projects">
+      <h4>Work</h4>
+    </section>
     <!-- Contact Section  -->
-    <section id="contact"></section>
+    <section id="contact" class="contact">
+      <h4>Contact</h4>
+      <p>Have a question or want to work together?</p>
+    </section>
     <!-- Footer Section  -->
     <footer class="footer">
-        <p>&copy; Copyright 2022 Shane Bramble-Wade</p>
+      <p>&copy; Copyright 2022 Shane Bramble-Wade</p>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
     </footer>
-    
   </body>
 </html>

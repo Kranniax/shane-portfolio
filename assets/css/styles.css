@@ -5,8 +5,45 @@
 
 header {
     background-color: #A6D1E6;
+    padding: 25px 25px ;
+    
+}
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+header ul li {
+    display: inline-block;
+    /* margin: 10px 25px; */
+}
+header ul li a {
+    text-decoration: none;
+}
+.hero {
+    height: 200px;
+    background-color: beige;
+}
+.about {
+    height: 200px;
+}
+.projects {
+    height: 200px;
+    background-color: beige;
+}
+.contact{
+    height: 200px;
 }
 
 footer {
     background-color: #3D3C42;
+    height: 100px;
 }
