@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 section {
-    padding: 60px;
+  padding: 60px;
 }
 /* Header Section  */
 header {
@@ -36,10 +36,19 @@ header nav ul li a {
   font-size: 30px;
   /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
+
 /* Hero Banner Section  */
 .hero {
+  height: 425px;
   background-image: url(../images/long-journey-f2-1600x900.jpg);
   background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 35%;
+  left: 3%;
 }
 .about {
   height: 200px;
@@ -75,4 +84,14 @@ footer p {
 .socials a {
   text-decoration: none;
   color: inherit;
+}
+/* End of Footer Section */
+
+/* Utility CSS Styling  */
+.section-title{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
 }
