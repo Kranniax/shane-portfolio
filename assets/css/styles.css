@@ -50,8 +50,27 @@ header nav ul li a {
   top: 35%;
   left: 3%;
 }
+/* About Me Section  */
 .about {
-  height: 200px;
+  background-color: #D06873;
+}
+.about-me-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me-img {
+  flex: 1;
+}
+.about-me-img img {
+    max-width: 100%;
+}
+.about-me-text{
+  flex: 1;
+}
+.about-me-text p {
+  width: 50%;
 }
 .projects {
   height: 200px;
@@ -88,10 +107,13 @@ footer p {
 /* End of Footer Section */
 
 /* Utility CSS Styling  */
-.section-title{
-  text-align: center;
+.flex-row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px 0;
+}
+.section-title {
+  width: 50%;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  border-bottom: 3px solid;
 }
