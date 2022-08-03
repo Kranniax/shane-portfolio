@@ -70,7 +70,7 @@ header nav ul li a {
   flex: 1;
 }
 .about-me-text p {
-  width: 50%;
+  /* width: 50%; */
 }
 .projects {
   height: 200px;
