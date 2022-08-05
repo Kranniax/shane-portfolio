@@ -36,6 +36,7 @@ header nav ul li a {
   font-size: 30px;
   /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 }
+/* End of Header Section  */
 
 /* Hero Banner Section  */
 .hero {
@@ -50,28 +51,35 @@ header nav ul li a {
   top: 35%;
   left: 3%;
 }
+/* End of Hero Banner Section  */
+
 /* About Me Section  */
 .about {
-  background-color: #D06873;
+  background-color: #d06873;
 }
-.about-me-info{
+.about-me-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  width: 50%;
+  margin: 10px auto;
 }
 .about-me-img {
-  flex: 1;
+  flex: 1 20%;
 }
 .about-me-img img {
-    max-width: 100%;
+  max-width: 100%;
 }
-.about-me-text{
-  flex: 1;
+.about-me-text {
+  flex: 1 80%;
+  /* margin: 20px; */
 }
 .about-me-text p {
-  /* width: 50%; */
+  text-align: left;
+  padding-left: 25px;
 }
+/* End of About Me Section  */
 .projects {
   height: 200px;
   background-color: beige;
