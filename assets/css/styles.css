@@ -110,9 +110,21 @@ header nav ul li a {
 .flex-item:hover {
   background-color: rgba(147, 142, 142, 0.3);
 }
+.flex-item div {
+  margin-left: 10px;
+}
+
+/* End of Work Section  */
+
+/* Contact Section */
+
 .contact {
   min-height: 400px;
   height: 200px;
+}
+.contact p {
+  display: inline-block;
+  margin: 0px auto 0 auto;
 }
 
 /* Footer Section  */
