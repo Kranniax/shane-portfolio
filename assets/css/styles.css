@@ -119,14 +119,31 @@ header nav ul li a {
 /* Contact Section */
 
 .contact {
-  min-height: 400px;
-  height: 200px;
+  background-color: #D06873;
 }
 .contact p {
-  display: inline-block;
-  margin: 0px auto 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
 }
-
+.contact-form {
+  /* background-color: blue; */
+  padding: 20px;
+  width: 40%;
+  margin: 3.5% auto 3.5% auto;
+}
+.contact-form input, textarea {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  padding: 10px 15px;
+  color: green;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* .contact-form button{
+  margin: 0 auto  auto;
+} */
 /* Footer Section  */
 footer {
   background-color: #3d3c42;
