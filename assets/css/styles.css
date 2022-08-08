@@ -8,7 +8,7 @@ section {
 }
 /* Header Section  */
 header {
-  background-color: #a6d1e6;
+  background-color: #6096ba;
   padding: 30px 25px;
   display: flex;
   flex-wrap: wrap;
@@ -19,9 +19,11 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
+  color: #BA8460;
 }
 header a {
   text-decoration: none;
+  color: #BA8460;
 }
 header nav ul {
   display: flex;
@@ -34,16 +36,21 @@ header nav ul li a {
   padding: 10px 50px;
   font-weight: lighter;
   font-size: 30px;
-  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+header nav ul li a:hover{
+  background-color: #304B5D;
+  border-radius: 5px;
+  color: #60BAB1;
 }
 /* End of Header Section  */
 
 /* Hero Banner Section  */
 .hero {
   height: 425px;
-  background-image: url(../images/survivor-minimal-5k-n8-1600x900.jpg);
+  background-image: url(../images/computer-g5b6145dfa_1920.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   position: relative;
 }
 .hero-text {
@@ -55,7 +62,7 @@ header nav ul li a {
 
 /* About Me Section  */
 .about {
-  background-color: #d06873;
+  background-color: #a3cef1;
 }
 .about-me-info {
   display: flex;
@@ -83,7 +90,7 @@ header nav ul li a {
 
 /* Work Section  */
 .projects {
-  background-color: #fbc7ba;
+  background-color: #e7ecef;
 }
 .flex-container {
   display: flex;
@@ -99,7 +106,7 @@ header nav ul li a {
   max-height: 200px;
   text-decoration: none;
   font-size: 0.9rem;
-  border: 5px solid black;
+  border: 5px solid #747778;
   border-radius: 5%;
   display: flex;
   align-items: flex-end;
@@ -120,7 +127,7 @@ header nav ul li a {
 
 /* Contact Section */
 .contact {
-  background-color: #d06873;
+  background-color: #a3cef1;
 }
 .contact p {
   text-align: center;
@@ -168,7 +175,7 @@ header nav ul li a {
 }
 /* Footer Section  */
 footer {
-  background-color: #3d3c42;
+  background-color: #274c77;
   width: 100%;
   padding: 40px 35px;
   display: flex;
