@@ -19,11 +19,11 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: #BA8460;
+  color: #ba8460;
 }
 header a {
   text-decoration: none;
-  color: #BA8460;
+  color: #ba8460;
 }
 header nav ul {
   display: flex;
@@ -38,10 +38,10 @@ header nav ul li a {
   font-size: 30px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-header nav ul li a:hover{
-  background-color: #304B5D;
+header nav ul li a:hover {
+  background-color: #304b5d;
   border-radius: 5px;
-  color: #60BAB1;
+  color: #60bab1;
 }
 /* End of Header Section  */
 
@@ -211,7 +211,7 @@ footer p {
   border-bottom: 3px solid;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -245,10 +245,36 @@ footer p {
     width: 80%;
   }
   .flex-item:first-child {
-  flex-basis: 70%;
-}
+    flex-basis: 70%;
+  }
 }
 
+@media screen and (max-width: 768px) {
+   header nav ul {
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  .about-me-img {
+    flex-basis: 100%;
+    margin-bottom: 25px;
+  }
+  .flex-item {
+    flex-basis: 100%;
+  }
+  .flex-item:first-child {
+    flex-basis: 100%;
+  }
+  .contact-me-button {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 575) {
+  header nav ul {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .button-43 {
